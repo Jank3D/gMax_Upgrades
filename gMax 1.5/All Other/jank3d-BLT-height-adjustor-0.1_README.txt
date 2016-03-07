@@ -1,0 +1,23 @@
+Part: Jank3D BLTouch Height Adjustor
+Filename: jank3d-BLT-height-adjustor-0.1.stl
+Designer: Jank3D Crew
+--------------------------------------------------------------------------------------------------------------
+Version: 0.1
+
+Improvement Realized:
+  Used to help calibrate the BLTouch auto leveling sensor to the gMax or Jank3D printer.
+
+Hardware Required:
+  BLTouch sensor
+
+Infill Suggestions:
+  Print at 10% - 15% infill
+
+Assembly:
+  This disk is printed fully assembled.  For best results ensure the disk is 8mm tall with a caliper to help
+  ensure correct calibration of the BLTouch sensor to your printer.  
+
+  To use the disk, lower your nozzle to the bed.  Place the pin in the hole of the alignment disk and fix
+  your mount such that the bottom of the BLTouch probe rests on the top of the disk.  Normally, this will
+  create an offset of -0.85 Y offset in the firmware, however tweaking may be required for proper 
+  height adjustment.
